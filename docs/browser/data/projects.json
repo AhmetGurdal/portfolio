@@ -1,0 +1,723 @@
+{
+  "onepercent_bot": {
+    "name": "OnePercent Bot",
+    "short_description": "An AI introduction and appointment bot",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "OnePercent Bot" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "OnePercent Bot " },
+            {
+              "type": "text",
+              "value": "is an AI assistant that informs the potencial clients about the business and manages the appointments that the potencial clients can set for an available time by user. The available times are set by the business manager or customer service by their schedules."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "If it is the first visit of the client:"
+        },
+        { "type": "image", "value": "/images/projects/onepercent/intro.gif" },
+        {
+          "type": "text",
+          "value": "If it is not the first visit:"
+        },
+        { "type": "image", "value": "/images/projects/onepercent/second.gif" }
+      ]
+    },
+    "technologies": ["nodejs", "nextjs", "ai"],
+    "project_image": "/images/projects/onepercent/intro.jpg",
+    "project_video": "/images/projects/onepercent/intro.gif"
+  },
+  "rsa_ml_attacks": {
+    "name": "RSA ML Attacks",
+    "short_description": "Investigating the attacks on the RSA encryption algorithm using maching learning",
+    "long_description_old": "RSA_ML_Attacks is a research-oriented project that explores how machine learning techniques can be used to analyze and potentially attack the RSA encryption algorithm. It focuses on generating synthetic RSA datasets and applying ML models to uncover patterns that may compromise cryptographic security. The project simulates attack scenarios to assess the practical viability of ML-based approaches in cryptanalysis. It aims to bridge the gap between traditional cryptographic methods and modern AI capabilities. The codebase is modular, supporting easy experimentation with different models and parameters. Key components include data generation, feature extraction, model training, and results evaluation. It serves as an educational and research tool for students and professionals interested in cybersecurity, cryptography, and machine learning. The project is implemented in Python and includes Docker support for consistent environments.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "RSA ML Attacks" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "RSA ML Attacks: " },
+            {
+              "type": "text",
+              "value": "is a research project I created to explore how machine learning can be used to analyze and challenge the security of RSA encryption, one of the most widely used cryptographic algorithms in the world."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "The goal of this project is to investigate whether patterns in RSA-related data can be learned by machine learning models and potentially used to perform or assist in cryptographic attacks. It sits at the intersection of artificial intelligence and cybersecurity."
+        },
+        {
+          "type": "text",
+          "value": "This work is meant to contribute to the academic and technical understanding of how modern AI techniques might influence cryptographic security, either by revealing new vulnerabilities or inspiring more robust encryption strategies."
+        },
+        { "type": "title-h2", "value": "Who It's For" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "Researchers interested in the intersection of cryptography and machine learning."
+            },
+            {
+              "type": "text",
+              "value": "Students studying cybersecurity, cryptanalysis, or data science."
+            },
+            {
+              "type": "text",
+              "value": "Developers and academics curious about how AI could be applied in cryptographic contexts."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "If you're curious about how machine learning might one day impact digital security standards, you're welcome to explore the project on "
+            },
+            {
+              "type": "link",
+              "value": "GitHub",
+              "link": "https://github.com/AhmetGurdal/RSA_ML_Attacks"
+            },
+            {
+              "type": "text",
+              "value": "."
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["python", "tensorflow", "matplotlib"],
+    "project_link": "https://github.com/AhmetGurdal/RSA_ML_Attacks",
+    "project_image": "/images/projects/default.jpg"
+  },
+  "time_countdown": {
+    "name": "Time Countdown",
+    "short_description": "A time countdown extension for the VSCode application",
+    "long_description_file": "timecount.html",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "Time Countdown" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "Time Countdown: " },
+            {
+              "type": "text",
+              "value": "is a lightweight extension for Visual Studio Code, developed by Yazılım VIP, designed to help developers manage time-sensitive tasks directly within the editor."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "With over 650 installations, it provides a straightforward countdown timer that can be started and stopped with a single click or command."
+        },
+        { "type": "image", "value": "/images/projects/countdown/intro.gif" },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Flexible Time Input: " },
+                {
+                  "type": "text",
+                  "value": "Supports various time formats, including "
+                },
+                { "type": "code", "value": "1h 1m 1s" },
+                { "type": "text", "value": "," },
+                { "type": "code", "value": "120m" },
+                { "type": "text", "value": "and " },
+                { "type": "code", "value": "150s" },
+                {
+                  "type": "text",
+                  "value": "; allowing users to set timers quickly and efficiently."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Easy Control: " },
+                {
+                  "type": "text",
+                  "value": "Users can initiate or halt the timer using a dedicated button located at the bottom of the editor or by executing a command."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Simple Interface: " },
+                {
+                  "type": "text",
+                  "value": "Designed for minimal distraction, it integrates seamlessly into the VS Code environment, ensuring a smooth user experience."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Open Communication: " },
+                {
+                  "type": "text",
+                  "value": "The developer encourages user feedback and suggestions, providing a contact email for direct communication."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to install the extension, visit the "
+            },
+            {
+              "type": "link",
+              "value": "Visual Studio Marketplace page",
+              "link": "https://marketplace.visualstudio.com/items?itemName=yazilim-vip.time-countdown"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["typescript"],
+    "link": "https://marketplace.visualstudio.com/items?itemName=yazilim-vip.time-countdown",
+    "project_image": "/images/projects/countdown/intro.png",
+    "project_video": "/images/projects/countdown/intro.gif"
+  },
+  "kibit": {
+    "name": "Kibit",
+    "short_description": "A version controlled file saving system",
+    "long_description_old": "Kibit is a desktop application developed using the Kivy framework, designed to facilitate the backup of local directories to private Git repositories. The tool provides a user-friendly interface where users can configure their Git repository settings, including repository URL and authentication credentials. Once set up, users can select local directories to back up, and the application will synchronize these directories with the specified Git repository. This ensures that users have a secure and version-controlled backup of their important files. The application is particularly useful for developers and individuals who prefer using Git for backup purposes but seek a straightforward graphical interface to manage the process. The project is open-source and available for contributions.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "Kibit" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "Kibit: " },
+            {
+              "type": "text",
+              "value": "is a Git backup tool I developed using the Kivy framework. It provides a graphical user interface (GUI) to facilitate easy backup of local Git repositories to a remote repository."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "The primary objective of Kibit is to simplify the process of backing up Git repositories by offering an intuitive interface that allows users to configure and manage their backup settings effortlessly."
+        },
+        {
+          "type": "text",
+          "value": "Kibit is designed for developers and users who prefer a GUI-based approach to manage their Git backups, eliminating the need for complex command-line operations."
+        },
+        { "type": "image", "value": "/images/projects/kibit/intro.gif" },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "User-Friendly Interface: " },
+                {
+                  "type": "text",
+                  "value": "Offers a simple and intuitive GUI built with the Kivy framework, making it accessible to users of all technical levels."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                {
+                  "type": "strong",
+                  "value": "Private Repository Integration: "
+                },
+                {
+                  "type": "text",
+                  "value": "Allows users to set up and configure their private Git repositories for backup purposes."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Dynamic Path Configuration: " },
+                {
+                  "type": "text",
+                  "value": "Provides options to set relative paths, offering flexibility in managing backup locations."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "GitHub repository",
+              "link": "https://github.com/AhmetGurdal/kibit"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["python", "kivy", "git"],
+    "project_link": "https://github.com/AhmetGurdal/kibit/",
+    "project_image": "/images/projects/kibit/intro.png",
+    "project_video": "/images/projects/kibit/intro.gif"
+  },
+  "bcl": {
+    "name": "Blockchain Conflict Law (BCL)",
+    "short_description": "BCL is a web-based tool that helps identify the applicable law for international cryptocurrency transactions under private international law.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "BCL Public" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "BCL Public: " },
+            {
+              "type": "text",
+              "value": "is a web-based interactive tool developed under the TÜBİTAK 1002 project. It aims to assist in determining the applicable law for cryptocurrency trading transactions in private international law."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "This platform provides guidance on jurisdictional issues related to crypto transactions, offering users insights into potential legal frameworks. However, it does not provide definitive legal advice or binding recommendations."
+        },
+        {
+          "type": "text",
+          "value": "Designed for legal professionals, researchers, and individuals interested in the intersection of cryptocurrency and international law, BCL_public serves as an informative resource in this emerging field."
+        },
+        { "type": "image", "value": "/images/projects/bcl/slow.gif" },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Interactive Interface: " },
+                {
+                  "type": "text",
+                  "value": "Allows users to input relevant details to explore potential legal jurisdictions for crypto transactions."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Informative Guidance: " },
+                {
+                  "type": "text",
+                  "value": "Provides insights into applicable laws based on user inputs, aiding in understanding jurisdictional complexities."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Non-Binding Information: " },
+                {
+                  "type": "text",
+                  "value": "Clarifies that the tool offers informational content and does not constitute legal advice or binding recommendations."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information, visit the "
+            },
+            {
+              "type": "link",
+              "value": "repository",
+              "link": "https://github.com/AhmetGurdal/BCL_public"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "To use the tool visit the "
+            },
+            {
+              "type": "link",
+              "value": "website",
+              "link": "https://ahmetgurdal.github.io/BCL_public/"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["nextjs", "typescript", "tailwind", "blockchain"],
+    "project_link": "https://github.com/AhmetGurdal/BCL_public",
+    "link": "https://ahmetgurdal.github.io/BCL_public/",
+    "project_image": "/images/projects/bcl/intro.png",
+    "project_video": "/images/projects/bcl/intro.gif"
+  },
+  "tech_notery": {
+    "name": "Tech Notery",
+
+    "short_description": "Tech notery is a mobile application created for a demostraction of a public notery system built on a custom blockchain system",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "Tech Notery" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "Tech Notery: " },
+            {
+              "type": "text",
+              "value": "is a mobile application that is developed to combine the notery and signature related tasks with the online public signature system, blockchain."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "The primary objective of Tech Notery is to make the notery tasks much easy to do. Using this application, Users can create a document and make it signed by an available notery at the time. Also user can include multiple parties to a document and when the included parties also approved the document, the document can be signable a notery and when the notery approves the document, it will be added the blockchain and will be available to the public to see. "
+        },
+        { "type": "image", "value": "/images/projects/technoter/full.gif" },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Mobile Application: " },
+                {
+                  "type": "text",
+                  "value": "Scans web pages to identify unauthorized or malicious links that may have been injected through various attack vectors."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "File Management: " },
+                {
+                  "type": "text",
+                  "value": "Scans web pages to identify unauthorized or malicious links that may have been injected through various attack vectors."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Blockchain: " },
+                {
+                  "type": "text",
+                  "value": "Allows administrators to define a list of trusted links and domains, enabling the tool to distinguish between legitimate and suspicious links."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Authentication: " },
+                {
+                  "type": "text",
+                  "value": "Generates detailed reports highlighting detected SLI threats, including the source and nature of the suspicious links."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "SLI-Checker GitHub repository",
+              "link": "https://github.com/AhmetGurdal/SLI-Checker"
+            }
+          ]
+        }
+      ]
+    },
+    "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
+    "technologies": ["python"],
+    "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
+    "project_image": "/images/projects/technoter/intro.png",
+    "project_video": "/images/projects/technoter/intro.gif"
+  },
+  "dr-bst": {
+    "name": "DRLearning Basket Shot Trajectory (DR-BST)",
+    "short_description": "DRLearning Basket Shot Trajectory (DR-BST) is a deep reinforcement learning-based simulation that trains an agent to optimize basketball shot trajectories through dynamic angle and force adjustments.",
+    "long_description_old": "DRLearning-Basket-Shot-Trajectory is a Python-based simulation that employs deep reinforcement learning (DRL) to model and optimize basketball shot trajectories. The project utilizes the Kivy framework to provide an interactive graphical interface, allowing users to visualize and adjust various parameters influencing the shot. Key components of the simulation include classes for the ball, rim, and power bar, each contributing to the realistic modeling of the shot dynamics. The agent learns to adjust the shot's angle and force to maximize the likelihood of scoring, simulating the decision-making process of a basketball player. The environment is designed to be extensible, enabling the incorporation of additional features such as player movement or defensive interference. The project's structure is modular, with separate files handling different aspects of the simulation, including physics calculations and user interface elements. A Jupyter Notebook is included for testing and experimentation with different configurations. The repository provides a foundational platform for exploring the application of DRL in sports simulations. This project is particularly useful for those interested in the intersection of artificial intelligence and sports analytics. It serves as an educational tool for understanding the principles of reinforcement learning in a practical context.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "DRLearning-Basket-Shot-Trajectory" },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "strong",
+              "value": "DRLearning-Basket-Shot-Trajectory: "
+            },
+            {
+              "type": "text",
+              "value": "is a physics simulation project I developed to model and analyze the trajectory of a basketball shot. The project aims to provide insights into the factors influencing the success of a basketball shot."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "By simulating various parameters such as angle, velocity, and trajectory, this project offers a deeper understanding of the mechanics behind a successful basketball shot."
+        },
+        {
+          "type": "text",
+          "value": "This project is intended for sports enthusiasts, students, and anyone interested in the physics of basketball shooting."
+        },
+        {
+          "type": "image",
+          "value": "/images/projects/drl-basketball/intro.gif"
+        },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Physics-Based Simulation: " },
+                {
+                  "type": "text",
+                  "value": "Models the trajectory of a basketball shot considering various physical factors."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Parameter Adjustment: " },
+                {
+                  "type": "text",
+                  "value": "Allows users to adjust parameters like angle and velocity to observe their effects on the shot trajectory."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Educational Tool: " },
+                {
+                  "type": "text",
+                  "value": "Serves as an educational resource for understanding the physics behind basketball shooting."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "GitHub repository",
+              "link": "https://github.com/AhmetGurdal/DRLearning-Basket-Shot-Trajectory"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["python", "pygame", "ml"],
+    "project_link": "https://github.com/AhmetGurdal/DRLearning-Basket-Shot-Trajectory",
+    "project_image": "/images/projects/drl-basketball/intro.png",
+    "project_video": "/images/projects/drl-basketball/intro.gif"
+  },
+  "sli-checker": {
+    "name": "SLI Checker",
+    "short_description": "SLI Checker is a lightweight Python tool that helps detect and prevent unauthorized or suspicious external links on websites to protect against spam link injection attacks.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "SLI-Checker" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "SLI-Checker: " },
+            {
+              "type": "text",
+              "value": "is a Python-based tool developed to identify and mitigate Spam Link Injection (SLI) attacks on websites. It automates the detection of unauthorized or malicious links injected into web pages, which can be exploited for spam or phishing purposes."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "The primary objective of SLI-Checker is to provide web administrators and security professionals with a reliable method to scan and identify potential SLI vulnerabilities within their websites, ensuring the integrity and trustworthiness of their online presence."
+        },
+        {
+          "type": "text",
+          "value": "This tool is designed for use by web developers, security analysts, and administrators who are responsible for maintaining the security and integrity of websites."
+        },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Automated SLI Detection: " },
+                {
+                  "type": "text",
+                  "value": "Scans web pages to identify unauthorized or malicious links that may have been injected through various attack vectors."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Secure List Configuration: " },
+                {
+                  "type": "text",
+                  "value": "Allows administrators to define a list of trusted links and domains, enabling the tool to distinguish between legitimate and suspicious links."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Comprehensive Reporting: " },
+                {
+                  "type": "text",
+                  "value": "Generates detailed reports highlighting detected SLI threats, including the source and nature of the suspicious links."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "SLI-Checker GitHub repository",
+              "link": "https://github.com/AhmetGurdal/SLI-Checker"
+            }
+          ]
+        }
+      ]
+    },
+    "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
+    "technologies": ["python"],
+    "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
+    "project_image": "/images/projects/default.jpg"
+  },
+  "cbc": {
+    "name": "ContractBlockChain",
+    "short_description": "ContractBlockChain is a prototype blockchain system designed to securely manage and verify smart legal contracts using Python-based decentralized technology.",
+    "long_description_old": "ContractBlockChain is a foundational project aimed at integrating blockchain technology with smart contract management. The repository contains the initial setup for a blockchain-based contract system, focusing on secure and transparent contract execution. Utilizing Python, the project lays the groundwork for developing decentralized applications (dApps) that can automate and verify contractual agreements. The primary objective is to enhance trust and reduce fraud in contract execution by leveraging the immutable nature of blockchain. While the repository is in its early stages, it serves as a starting point for building more complex systems that can handle various contract types. Future developments may include features like digital signatures, automated enforcement, and real-time tracking of contract milestones. The project is designed to be modular, allowing for easy integration with existing blockchain platforms and smart contract frameworks. Developers interested in blockchain-based legal solutions can contribute to and expand upon this project. By combining legal processes with blockchain's capabilities, the project aims to revolutionize how contracts are managed and executed. This initiative is particularly relevant for industries seeking to streamline operations and ensure compliance through technology.",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "ContractBlockChain" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "ContractBlockChain: " },
+            {
+              "type": "text",
+              "value": "is a blockchain project I developed to explore the integration of smart contracts with blockchain technology. The project aims to demonstrate the practical applications of smart contracts in automating and securing digital agreements."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "The primary objective of ContractBlockChain is to provide a platform where users can create, manage, and execute smart contracts in a decentralized environment. This project serves as a foundational step towards understanding and implementing blockchain-based solutions for contract management."
+        },
+        {
+          "type": "text",
+          "value": "Designed for developers, blockchain enthusiasts, and those interested in the intersection of law and technology, ContractBlockChain offers a hands-on approach to learning about smart contracts and their potential to revolutionize various industries."
+        },
+        { "type": "title-h2", "value": "Key Features:" },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Smart Contract Creation: " },
+                {
+                  "type": "text",
+                  "value": "Enables users to define and deploy smart contracts on a blockchain network."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Contract Execution: " },
+                {
+                  "type": "text",
+                  "value": "Facilitates the automatic execution of contract terms when predefined conditions are met."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Decentralized Platform: " },
+                {
+                  "type": "text",
+                  "value": "Operates on a blockchain network, ensuring transparency and immutability of contract data."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "ContractBlockChain GitHub repository",
+              "link": "https://github.com/AhmetGurdal/ContractBlockChain"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["python", "blockchain"],
+    "project_link": "https://github.com/AhmetGurdal/ContractBlockChain",
+    "project_image": "/images/projects/default.jpg"
+  }
+}
