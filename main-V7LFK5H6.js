@@ -19061,7 +19061,7 @@ var Un = class e {
   }
   ngOnInit() {
     return Z1(this, null, function* () {
-      this.projects = yield fetch("/data/projects.json")
+      this.projects = yield fetch("./data/projects.json")
         .then((n) => n.json())
         .then((n) => n);
     });
