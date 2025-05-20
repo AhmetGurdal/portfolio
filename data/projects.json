@@ -19,17 +19,17 @@
           "type": "text",
           "value": "If it is the first visit of the client:"
         },
-        { "type": "image", "value": "/images/projects/onepercent/intro.gif" },
+        { "type": "image", "value": "./images/projects/onepercent/intro.gif" },
         {
           "type": "text",
           "value": "If it is not the first visit:"
         },
-        { "type": "image", "value": "/images/projects/onepercent/second.gif" }
+        { "type": "image", "value": "./images/projects/onepercent/second.gif" }
       ]
     },
     "technologies": ["nodejs", "nextjs", "ai"],
-    "project_image": "/images/projects/onepercent/intro.jpg",
-    "project_video": "/images/projects/onepercent/intro.gif"
+    "project_image": "./images/projects/onepercent/intro.jpg",
+    "project_video": "./images/projects/onepercent/intro.gif"
   },
   "rsa_ml_attacks": {
     "name": "RSA ML Attacks",
@@ -96,7 +96,7 @@
     },
     "technologies": ["python", "tensorflow", "matplotlib"],
     "project_link": "https://github.com/AhmetGurdal/RSA_ML_Attacks",
-    "project_image": "/images/projects/default.jpg"
+    "project_image": "./images/projects/default.jpg"
   },
   "time_countdown": {
     "name": "Time Countdown",
@@ -119,7 +119,7 @@
           "type": "text",
           "value": "With over 650 installations, it provides a straightforward countdown timer that can be started and stopped with a single click or command."
         },
-        { "type": "image", "value": "/images/projects/countdown/intro.gif" },
+        { "type": "image", "value": "./images/projects/countdown/intro.gif" },
         { "type": "title-h2", "value": "Key Features:" },
         {
           "type": "list",
@@ -193,8 +193,8 @@
     },
     "technologies": ["typescript"],
     "link": "https://marketplace.visualstudio.com/items?itemName=yazilim-vip.time-countdown",
-    "project_image": "/images/projects/countdown/intro.png",
-    "project_video": "/images/projects/countdown/intro.gif"
+    "project_image": "./images/projects/countdown/intro.png",
+    "project_video": "./images/projects/countdown/intro.gif"
   },
   "kibit": {
     "name": "Kibit",
@@ -221,7 +221,7 @@
           "type": "text",
           "value": "Kibit is designed for developers and users who prefer a GUI-based approach to manage their Git backups, eliminating the need for complex command-line operations."
         },
-        { "type": "image", "value": "/images/projects/kibit/intro.gif" },
+        { "type": "image", "value": "./images/projects/kibit/intro.gif" },
         { "type": "title-h2", "value": "Key Features:" },
         {
           "type": "list",
@@ -279,8 +279,8 @@
     },
     "technologies": ["python", "kivy", "git"],
     "project_link": "https://github.com/AhmetGurdal/kibit/",
-    "project_image": "/images/projects/kibit/intro.png",
-    "project_video": "/images/projects/kibit/intro.gif"
+    "project_image": "./images/projects/kibit/intro.png",
+    "project_video": "./images/projects/kibit/intro.gif"
   },
   "bcl": {
     "name": "Blockchain Conflict Law (BCL)",
@@ -306,7 +306,7 @@
           "type": "text",
           "value": "Designed for legal professionals, researchers, and individuals interested in the intersection of cryptocurrency and international law, BCL_public serves as an informative resource in this emerging field."
         },
-        { "type": "image", "value": "/images/projects/bcl/slow.gif" },
+        { "type": "image", "value": "./images/projects/bcl/slow.gif" },
         { "type": "title-h2", "value": "Key Features:" },
         {
           "type": "list",
@@ -376,8 +376,8 @@
     "technologies": ["nextjs", "typescript", "tailwind", "blockchain"],
     "project_link": "https://github.com/AhmetGurdal/BCL_public",
     "link": "https://ahmetgurdal.github.io/BCL_public/",
-    "project_image": "/images/projects/bcl/intro.png",
-    "project_video": "/images/projects/bcl/intro.gif"
+    "project_image": "./images/projects/bcl/intro.png",
+    "project_video": "./images/projects/bcl/intro.gif"
   },
   "tech_notery": {
     "name": "Tech Notery",
@@ -400,7 +400,7 @@
           "type": "text",
           "value": "The primary objective of Tech Notery is to make the notery tasks much easy to do. Using this application, Users can create a document and make it signed by an available notery at the time. Also user can include multiple parties to a document and when the included parties also approved the document, the document can be signable a notery and when the notery approves the document, it will be added the blockchain and will be available to the public to see. "
         },
-        { "type": "image", "value": "/images/projects/technoter/full.gif" },
+        { "type": "image", "value": "./images/projects/technoter/full.gif" },
         { "type": "title-h2", "value": "Key Features:" },
         {
           "type": "list",
@@ -466,8 +466,8 @@
     "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
     "technologies": ["python"],
     "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
-    "project_image": "/images/projects/technoter/intro.png",
-    "project_video": "/images/projects/technoter/intro.gif"
+    "project_image": "./images/projects/technoter/intro.png",
+    "project_video": "./images/projects/technoter/intro.gif"
   },
   "dr-bst": {
     "name": "DRLearning Basket Shot Trajectory (DR-BST)",
@@ -499,7 +499,7 @@
         },
         {
           "type": "image",
-          "value": "/images/projects/drl-basketball/intro.gif"
+          "value": "./images/projects/drl-basketball/intro.gif"
         },
         { "type": "title-h2", "value": "Key Features:" },
         {
@@ -555,8 +555,8 @@
     },
     "technologies": ["python", "pygame", "ml"],
     "project_link": "https://github.com/AhmetGurdal/DRLearning-Basket-Shot-Trajectory",
-    "project_image": "/images/projects/drl-basketball/intro.png",
-    "project_video": "/images/projects/drl-basketball/intro.gif"
+    "project_image": "./images/projects/drl-basketball/intro.png",
+    "project_video": "./images/projects/drl-basketball/intro.gif"
   },
   "sli-checker": {
     "name": "SLI Checker",
@@ -637,7 +637,7 @@
     "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
     "technologies": ["python"],
     "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
-    "project_image": "/images/projects/default.jpg"
+    "project_image": "./images/projects/default.jpg"
   },
   "cbc": {
     "name": "ContractBlockChain",
@@ -718,6 +718,6 @@
     },
     "technologies": ["python", "blockchain"],
     "project_link": "https://github.com/AhmetGurdal/ContractBlockChain",
-    "project_image": "/images/projects/default.jpg"
+    "project_image": "./images/projects/default.jpg"
   }
 }

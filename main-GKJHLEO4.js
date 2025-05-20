@@ -19576,7 +19576,7 @@ function Iv(e, n) {
   }
 }
 var Jn = class e {
-  resume_images = ["/resume/1.png", "/resume/2.png"];
+  resume_images = ["./resume/1.png", "./resume/2.png"];
   current_index = 0;
   onClick(n) {
     (this.current_index = n), this.openModal();
@@ -19591,7 +19591,7 @@ var Jn = class e {
   downloadPDFLink() {
     let n = document.createElement("a");
     (n.target = "_target"),
-      (n.href = "/resume/AhmetGurdal.pdf"),
+      (n.href = "./resume/AhmetGurdal.pdf"),
       (n.download = "pdf_file.pdf"),
       n.click();
   }
