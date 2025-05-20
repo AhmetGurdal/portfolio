@@ -1,0 +1,48 @@
+<main>
+  @if(showImageModal){
+  <app-image-modal
+    [imageUrl]="imageUrl"
+    (closed)="closeModal()"
+  ></app-image-modal>
+  }
+  <div class="background">
+    @for(block of blocks; track $index){ @switch (block.type) {
+    @case("title-h1"){
+    <h1 class="title">{{ block.value }}</h1>
+    }@case("title-h2"){
+    <h2>{{ block.value }}</h2>
+    } @case("list"){
+    <ul class="list">
+      @for(list of block.blocks; track $index){
+      <li>
+        @if(list.blocks){ @for(item of list.blocks; track $index){ @switch
+        (item.type) { @case("strong"){
+        <strong>{{ item.value }}</strong>
+        } @case("text"){
+        <span>{{ item.value }}</span
+        >} @case("code"){
+        <code>{{ item.value }}</code>
+        } } } } @else{
+        <span>{{ list.value }}</span>
+        }
+      </li>
+      }
+    </ul>
+    } @case("image"){
+    <img [src]="block.value" />
+    } @case ("text") { @if(block.blocks){
+    <p>
+      @for(item of block.blocks; track $index){ @switch (item.type) {
+      @case("strong"){
+      <strong>{{ item.value }}</strong>
+      } @case("text"){
+      <span>{{ item.value }}</span>
+      } @case("link"){
+      <a [href]="item.link">{{ item.value }}</a>
+      } } }
+    </p>
+    } @else{
+    <p>{{ block.value }}</p>
+    } } } }
+  </div>
+</main>

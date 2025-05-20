@@ -1,0 +1,12 @@
+main {
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  div {
+    color: white;
+    width: 30rem;
+    background: blueviolet;
+  }
+}

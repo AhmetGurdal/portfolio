@@ -1,0 +1,10 @@
+<!-- <main><div>ABC</div></main> -->
+@if(!isHeadLess()){
+<app-header></app-header>
+}
+<app-footer></app-footer>
+<app-menu
+  [isMenuCollapsed]="isMenuCollapsed()"
+  (changeIsMenuCollapsed)="changeIsMenuCollapsed($event)"
+></app-menu>
+<router-outlet />

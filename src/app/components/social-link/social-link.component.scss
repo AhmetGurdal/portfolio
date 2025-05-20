@@ -1,0 +1,54 @@
+path {
+  transition: fill 0.3s ease;
+  fill: var(--gray-400);
+}
+
+@keyframes rotateAllTheWay {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: -60deg;
+  }
+  75% {
+    rotate: 60deg;
+  }
+  100% {
+    rotate: 0deg;
+    scale: 1.5;
+  }
+}
+
+a:hover svg {
+  animation: rotateAllTheWay 0.5s ease-in-out forwards;
+}
+
+a:hover .Github {
+  background: white;
+  border-radius: 20px;
+  path {
+    fill: #222;
+  }
+}
+
+a:hover .X {
+  background: rgb(190, 171, 171);
+  border-radius: 20px;
+  path {
+    fill: #222;
+  }
+}
+
+a:hover .Youtube {
+  border-radius: 5px;
+  path {
+    fill: #f22;
+  }
+}
+
+a:hover .Linkedin {
+  border-radius: 5px;
+  path {
+    fill: #25f;
+  }
+}

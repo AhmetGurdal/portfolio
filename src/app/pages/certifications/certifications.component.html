@@ -1,0 +1,42 @@
+<main>
+  @if(showCertificateModal){
+  <app-image-modal
+    [imageUrl]="imageUrl"
+    (closed)="closeCertificateModal()"
+  ></app-image-modal>
+  }
+  <div class="header">
+    <h1>My Certifications</h1>
+    <p>
+      Certifications showcasing my expertise and commitment to continuous
+      learning.
+    </p>
+  </div>
+
+  <!-- Swiper Carousel for Categories
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      @for(category of categories; track $index){
+      <div
+        class="swiper-slide"
+        [class.selected]="category === selectedCategory"
+        (click)="filterByCategory(category)"
+      >
+        <span>{{ category }}</span>
+      </div>
+      }
+    </div>
+  </div> -->
+  <div class="category_list">
+    @for (category of categories; track $index){
+    <app-certification-category
+      [type]="category"
+      [isOpen]="isCategoryOpen[$index]"
+      [index]="$index"
+      [certificates]="filterCategories(category)"
+      (onCategoryChange)="onCategoryChange($event)"
+      (onCertificationImageOpen)="openCertificateModal($event)"
+    />
+    }
+  </div>
+</main>

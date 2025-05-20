@@ -1,0 +1,86 @@
+<main>
+  <div
+    class="mobile-layout"
+    id="mobile-layout"
+    (click)="openCategory()"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+  >
+    <div class="close-btn" (click)="closeCategory($event)">X</div>
+    <div class="book-name-open">
+      {{ categories[type].name }}
+    </div>
+    <div
+      class="book-cover"
+      [style.height]="this.isOpen ? '300px' : '500px'"
+      [style.transform]="
+        this.isOpen
+          ? 'rotateX(77deg) translateZ(2px) scale(0.75) translateY(-180px)'
+          : ''
+      "
+    >
+      <div
+        class="book-top-frame"
+        [style.backgroundColor]="categories[type].background_color"
+        [style.boxShadow]="
+          isHover ? '0px 0px 10px 1px rgba(255,255,255,0.93)' : ''
+        "
+      >
+        <img
+          class="book-top-icon"
+          [src]="categories[type].link"
+          alt="book-top"
+          [style.scale]="categories[type].icon_scale"
+          [style.top]="categories[type].top_diff + 'px'"
+          [style.left]="categories[type].left_diff + 'px'"
+        />
+        <p class="book-name" [style.color]="categories[type].text_color">
+          {{ categories[type].name }}
+        </p>
+      </div>
+      <img
+        class="book-side"
+        src="https://raw.githubusercontent.com/atomic-variable/images-repo/e37f432405904a280858e5437ce1960753bc78a3/book-side.svg"
+        alt="book-side"
+      />
+      <fa-icon
+        [icon]="faBars"
+        [style.boxShadow]="
+          isOpen
+            ? 'rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset'
+            : 'rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px'
+        "
+      ></fa-icon>
+    </div>
+    <div class="preface" [style.transform]="isOpen ? 'translateY(-180px)' : ''">
+      <div class="content">
+        @for(certificate of certificates; track $index){
+        <app-certification
+          [certification]="certificate"
+          (openModal)="onCertificationImageOpen.emit($event)"
+        />
+        }
+        <!-- <app-certification
+          [certification]="{
+      name: 'Writing, Running, and Fixing Code in C',
+      link: 'https://www.hackerrank.com/certificates/2ed5144b6b5c',
+      issuer: 'University of California San Diego - Coursera',
+      dateIssued: '2021-01-02',
+      imageUrl: '/certifications/problem_solving_basic.png',
+      category: 'general',
+    }"
+        ></app-certification>
+        <app-certification
+          [certification]="{
+      name: 'Problem Solving (Basic)',
+      link: 'https://www.hackerrank.com/certificates/2ed5144b6b5c',
+      issuer: 'HackerRank',
+      dateIssued: '2021-01-02',
+      imageUrl: '/certifications/problem_solving_basic.png',
+      category: 'general',
+    }"
+        ></app-certification> -->
+      </div>
+    </div>
+  </div>
+</main>

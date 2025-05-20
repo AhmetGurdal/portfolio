@@ -1,0 +1,20 @@
+<main>
+  @if(showProjectModal){
+  <app-image-modal
+    [imageUrl]="imageUrl"
+    (closed)="closeProjectModal()"
+  ></app-image-modal>
+  }
+
+  <h1 class="title">Projects</h1>
+  <div class="project-list">
+    @for(project of projects | keyvalue; track project){
+    <app-project
+      [project]="project.value"
+      [slug]="project.key"
+      (openProjectModal)="openProjectModal($event)"
+      (toProjectDetail)="toProjectDetail($event)"
+    />
+    }
+  </div>
+</main>

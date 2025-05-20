@@ -1,0 +1,58 @@
+<div class="modal-backdrop" (click)="closeModal()">
+  <div class="control_btns" (click)="$event.stopPropagation()">
+    <div class="zoom-btns">
+      <button (click)="zoomOut()" [disabled]="current_zoom == 1">
+        <fa-icon [icon]="faSearchMinus" />
+      </button>
+      <button (click)="zoomIn()" [disabled]="current_zoom == 4">
+        <fa-icon [icon]="faSearchPlus" />
+      </button>
+    </div>
+    @if(images.length > 1){
+    <div class="navigate-btns">
+      <button class="prev-btn" (click)="prevImage()" [disabled]="index == 0">
+        <fa-icon [icon]="faLeft" />
+      </button>
+      <button
+        class="next-btn"
+        (click)="nextImage()"
+        [disabled]="index == images.length - 1"
+      >
+        <fa-icon [icon]="faRight" />
+      </button>
+    </div>
+    }
+  </div>
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div
+      class="image-container"
+      [class.zoomed]="isZoomed"
+      (mousedown)="onMouseDown($event)"
+      (mouseup)="onMouseUp()"
+      (mouseleave)="onMouseUp()"
+      (mousemove)="onMouseMove($event)"
+      (touchstart)="onTouchStart($event)"
+      (touchmove)="onTouchMove($event)"
+      (touchend)="onTouchEnd()"
+    >
+      <img
+        [src]="images[index]"
+        alt="Zoomable Image"
+        class="zoom-image"
+        [ngStyle]="getImageStyle()"
+      />
+    </div>
+    <!-- <img
+      [src]="imageUrl"
+      class="zoomable-image"
+      alt="Zoomed Image"
+      [class.zoomed]="isZoomed"
+      (mousedown)="onMouseDown($event)"
+      (mouseup)="onMouseUp()"
+      (mouseleave)="onMouseUp()"
+      (mousemove)="onMouseMove($event)"
+      (click)="toggleZoom($event)"
+    /> -->
+    <button class="close-btn" (click)="closeModal()">✕</button>
+  </div>
+</div>
