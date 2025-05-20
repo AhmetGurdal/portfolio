@@ -23,7 +23,7 @@
     gap: 3rem;
     button {
       width: 4rem;
-      height: 2rem;
+      height: 3rem;
     }
   }
   .navigate-btns {
@@ -32,6 +32,10 @@
     top: 49%;
     display: flex;
     gap: 50vw;
+    button {
+      width: 4rem;
+      height: 3rem;
+    }
   }
 }
 
@@ -50,7 +54,6 @@
 
 .image-container {
   position: relative;
-  cursor: zoom-in;
   user-select: none;
 
   &.zoomed {

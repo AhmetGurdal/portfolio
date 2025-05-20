@@ -162,16 +162,6 @@
                   "value": "Designed for minimal distraction, it integrates seamlessly into the VS Code environment, ensuring a smooth user experience."
                 }
               ]
-            },
-            {
-              "type": "text",
-              "blocks": [
-                { "type": "strong", "value": "Open Communication: " },
-                {
-                  "type": "text",
-                  "value": "The developer encourages user feedback and suggestions, providing a contact email for direct communication."
-                }
-              ]
             }
           ]
         },
@@ -215,11 +205,11 @@
         },
         {
           "type": "text",
-          "value": "The primary objective of Kibit is to simplify the process of backing up Git repositories by offering an intuitive interface that allows users to configure and manage their backup settings effortlessly."
+          "value": "The primary objective of Kibit is to simplify the process of backing up local files and folders by offering an intuitive interface that allows users to configure and manage their backup settings effortlessly."
         },
         {
           "type": "text",
-          "value": "Kibit is designed for developers and users who prefer a GUI-based approach to manage their Git backups, eliminating the need for complex command-line operations."
+          "value": "Kibit is designed for anyone who prefer a Git-powered version control system on their personal files, eliminating the need to look for a backup device."
         },
         { "type": "image", "value": "/images/projects/kibit/intro.gif" },
         { "type": "title-h2", "value": "Key Features:" },
@@ -379,26 +369,26 @@
     "project_image": "/images/projects/bcl/intro.png",
     "project_video": "/images/projects/bcl/intro.gif"
   },
-  "tech_notery": {
-    "name": "Tech Notery",
+  "tech_notary": {
+    "name": "Tech Notary",
 
-    "short_description": "Tech notery is a mobile application created for a demostraction of a public notery system built on a custom blockchain system",
+    "short_description": "Tech Notary is a mobile application created for a demostraction of a public notary system built on a custom blockchain system",
     "long_description": {
       "blocks": [
-        { "type": "title-h1", "value": "Tech Notery" },
+        { "type": "title-h1", "value": "Tech Notary" },
         {
           "type": "text",
           "blocks": [
-            { "type": "strong", "value": "Tech Notery: " },
+            { "type": "strong", "value": "Tech Notary: " },
             {
               "type": "text",
-              "value": "is a mobile application that is developed to combine the notery and signature related tasks with the online public signature system, blockchain."
+              "value": "is a mobile application that is developed to combine the notary and signature related tasks with the online public signature system, blockchain."
             }
           ]
         },
         {
           "type": "text",
-          "value": "The primary objective of Tech Notery is to make the notery tasks much easy to do. Using this application, Users can create a document and make it signed by an available notery at the time. Also user can include multiple parties to a document and when the included parties also approved the document, the document can be signable a notery and when the notery approves the document, it will be added the blockchain and will be available to the public to see. "
+          "value": "The primary objective of Tech Notary is to make the notary tasks much easy to do. Using this application, Users can create a document and make it signed by an available notary at the time. Also user can include multiple parties to a document and when the included parties also approved the document, the document can be signable a notary and when the notary approves the document, it will be added the blockchain and will be available to the public to see. "
         },
         { "type": "image", "value": "/images/projects/technoter/full.gif" },
         { "type": "title-h2", "value": "Key Features:" },
@@ -411,7 +401,7 @@
                 { "type": "strong", "value": "Mobile Application: " },
                 {
                   "type": "text",
-                  "value": "Scans web pages to identify unauthorized or malicious links that may have been injected through various attack vectors."
+                  "value": "The mobile application, built with Flutter, delivers a seamless and responsive user experience with fast performance and a consistent UI across both iOS and Android platforms."
                 }
               ]
             },
@@ -421,7 +411,7 @@
                 { "type": "strong", "value": "File Management: " },
                 {
                   "type": "text",
-                  "value": "Scans web pages to identify unauthorized or malicious links that may have been injected through various attack vectors."
+                  "value": "The mobile application features a smooth document upload and display system, allowing users to easily upload files from their device and view them directly within the app."
                 }
               ]
             },
@@ -431,7 +421,7 @@
                 { "type": "strong", "value": "Blockchain: " },
                 {
                   "type": "text",
-                  "value": "Allows administrators to define a list of trusted links and domains, enabling the tool to distinguish between legitimate and suspicious links."
+                  "value": "The application leverages blockchain technology to ensure undeniability by securely recording document uploads with immutable timestamps and tamper-proof verification."
                 }
               ]
             },
@@ -441,7 +431,7 @@
                 { "type": "strong", "value": "Authentication: " },
                 {
                   "type": "text",
-                  "value": "Generates detailed reports highlighting detected SLI threats, including the source and nature of the suspicious links."
+                  "value": "The application implements role-based authentication, providing different authentication systems tailored to each party—such as users, notaries, and verifiers—ensuring secure and appropriate access control for all stakeholders."
                 }
               ]
             }
@@ -521,7 +511,7 @@
                 { "type": "strong", "value": "Parameter Adjustment: " },
                 {
                   "type": "text",
-                  "value": "Allows users to adjust parameters like angle and velocity to observe their effects on the shot trajectory."
+                  "value": "Deep reinforcement learning agent adjusts parameters like angle and velocity to get more points and by doing so improve its success on the shot trajectory."
                 }
               ]
             },
@@ -637,87 +627,6 @@
     "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
     "technologies": ["python"],
     "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
-    "project_image": "/images/projects/default.jpg"
-  },
-  "cbc": {
-    "name": "ContractBlockChain",
-    "short_description": "ContractBlockChain is a prototype blockchain system designed to securely manage and verify smart legal contracts using Python-based decentralized technology.",
-    "long_description_old": "ContractBlockChain is a foundational project aimed at integrating blockchain technology with smart contract management. The repository contains the initial setup for a blockchain-based contract system, focusing on secure and transparent contract execution. Utilizing Python, the project lays the groundwork for developing decentralized applications (dApps) that can automate and verify contractual agreements. The primary objective is to enhance trust and reduce fraud in contract execution by leveraging the immutable nature of blockchain. While the repository is in its early stages, it serves as a starting point for building more complex systems that can handle various contract types. Future developments may include features like digital signatures, automated enforcement, and real-time tracking of contract milestones. The project is designed to be modular, allowing for easy integration with existing blockchain platforms and smart contract frameworks. Developers interested in blockchain-based legal solutions can contribute to and expand upon this project. By combining legal processes with blockchain's capabilities, the project aims to revolutionize how contracts are managed and executed. This initiative is particularly relevant for industries seeking to streamline operations and ensure compliance through technology.",
-    "long_description": {
-      "blocks": [
-        { "type": "title-h1", "value": "ContractBlockChain" },
-        {
-          "type": "text",
-          "blocks": [
-            { "type": "strong", "value": "ContractBlockChain: " },
-            {
-              "type": "text",
-              "value": "is a blockchain project I developed to explore the integration of smart contracts with blockchain technology. The project aims to demonstrate the practical applications of smart contracts in automating and securing digital agreements."
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "value": "The primary objective of ContractBlockChain is to provide a platform where users can create, manage, and execute smart contracts in a decentralized environment. This project serves as a foundational step towards understanding and implementing blockchain-based solutions for contract management."
-        },
-        {
-          "type": "text",
-          "value": "Designed for developers, blockchain enthusiasts, and those interested in the intersection of law and technology, ContractBlockChain offers a hands-on approach to learning about smart contracts and their potential to revolutionize various industries."
-        },
-        { "type": "title-h2", "value": "Key Features:" },
-        {
-          "type": "list",
-          "blocks": [
-            {
-              "type": "text",
-              "blocks": [
-                { "type": "strong", "value": "Smart Contract Creation: " },
-                {
-                  "type": "text",
-                  "value": "Enables users to define and deploy smart contracts on a blockchain network."
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "blocks": [
-                { "type": "strong", "value": "Contract Execution: " },
-                {
-                  "type": "text",
-                  "value": "Facilitates the automatic execution of contract terms when predefined conditions are met."
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "blocks": [
-                { "type": "strong", "value": "Decentralized Platform: " },
-                {
-                  "type": "text",
-                  "value": "Operates on a blockchain network, ensuring transparency and immutability of contract data."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "text",
-          "blocks": [
-            {
-              "type": "text",
-              "value": "For more information or to contribute to the project, visit the "
-            },
-            {
-              "type": "link",
-              "value": "ContractBlockChain GitHub repository",
-              "link": "https://github.com/AhmetGurdal/ContractBlockChain"
-            }
-          ]
-        }
-      ]
-    },
-    "technologies": ["python", "blockchain"],
-    "project_link": "https://github.com/AhmetGurdal/ContractBlockChain",
     "project_image": "/images/projects/default.jpg"
   }
 }

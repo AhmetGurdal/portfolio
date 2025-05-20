@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
-main {
+.main {
   background: url(../../../../assets/images/background.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,14 +11,24 @@ main {
   overflow-x: hidden;
 }
 
+.social-links {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
-  main {
+  .main {
     padding-left: 6rem;
   }
 }
 
 @media screen and (max-width: 450px) {
-  main {
+  .main {
     padding: 0;
   }
 }
@@ -55,4 +65,9 @@ button {
   padding: 0.7rem 1.5rem;
   width: 10rem;
   border-radius: 10px;
+}
+
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }

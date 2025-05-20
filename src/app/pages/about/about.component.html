@@ -1,4 +1,4 @@
-<main>
+<main class="main">
   @if(show_modal){
   <app-resume-modal
     [images]="resume_images"
@@ -6,6 +6,7 @@
     (closed)="closeModal()"
   ></app-resume-modal>
   }
+
   <div class="background">
     <h1>About Me</h1>
     <p>
@@ -16,7 +17,12 @@
       tools. I enjoy building applications that combine academic insight with
       practical usability.
     </p>
-    <button (click)="downloadPDFLink()">Download Resume</button>
+    <div class="social-links">
+      <app-social-links />
+    </div>
+    <div class="download-btn">
+      <app-download-button href="/resume/AhmetGurdal.pdf" text="Download" />
+    </div>
     <div class="resume">
       @for(image of resume_images; track $index){
       <img [src]="image" (click)="onClick($index)" />

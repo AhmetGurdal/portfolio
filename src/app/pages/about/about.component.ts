@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
 import { ResumeModalComponent } from '../../components/resume-modal/resume-modal.component';
+import { SocialLinksComponent } from '../../components/social-links/social-links.component';
+import { DownloadButtonComponent } from '../../components/download-button/download-button.component';
 
 @Component({
   selector: 'app-about',
-  imports: [ResumeModalComponent],
+  imports: [
+    ResumeModalComponent,
+    SocialLinksComponent,
+    DownloadButtonComponent,
+  ],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
 })
@@ -29,7 +35,7 @@ export class AboutComponent {
     const a = document.createElement('a');
     a.target = '_target';
     a.href = '/resume/AhmetGurdal.pdf';
-    a.download = 'pdf_file.pdf';
+    a.download = 'AhmetGurdal_Resume.pdf';
     a.click();
   }
 }
