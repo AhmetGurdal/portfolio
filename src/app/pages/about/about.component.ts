@@ -15,7 +15,7 @@ import { DownloadButtonComponent } from '../../components/download-button/downlo
 })
 export class AboutComponent {
   // resume_images = ['/resume/1.png', '/resume/2.png', '/resume/3.png'];
-  resume_images = ['/resume/1.png', '/resume/2.png'];
+  resume_images = ['resume/1.png', 'resume/2.png'];
   current_index = 0;
   onClick(index: number) {
     this.current_index = index;
@@ -34,7 +34,7 @@ export class AboutComponent {
   downloadPDFLink() {
     const a = document.createElement('a');
     a.target = '_target';
-    a.href = '/resume/AhmetGurdal.pdf';
+    a.href = 'resume/AhmetGurdal.pdf';
     a.download = 'AhmetGurdal_Resume.pdf';
     a.click();
   }
