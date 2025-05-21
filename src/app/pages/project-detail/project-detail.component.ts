@@ -27,7 +27,7 @@ export class ProjectDetailComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     this.slug = this.route.snapshot.paramMap.get('id')!;
-    this.projects = await fetch('/data/projects.json')
+    this.projects = await fetch('data/projects.json')
       .then((e) => e.json())
       .then((e: { [key: string]: IProject }) => e);
     this.project = this.projects[this.slug];

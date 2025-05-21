@@ -2,23 +2,23 @@
   <div class="control_btns" (click)="$event.stopPropagation()">
     <div class="zoom-btns">
       <button (click)="zoomOut()" [disabled]="current_zoom == 1">
-        <fa-icon [icon]="faSearchMinus" />
+        <fa-icon [icon]="faSearchMinus" size="2xl" />
       </button>
       <button (click)="zoomIn()" [disabled]="current_zoom == 4">
-        <fa-icon [icon]="faSearchPlus" />
+        <fa-icon [icon]="faSearchPlus" size="2xl" />
       </button>
     </div>
     @if(images.length > 1){
     <div class="navigate-btns">
       <button class="prev-btn" (click)="prevImage()" [disabled]="index == 0">
-        <fa-icon [icon]="faLeft" />
+        <fa-icon [icon]="faLeft" size="2xl" />
       </button>
       <button
         class="next-btn"
         (click)="nextImage()"
         [disabled]="index == images.length - 1"
       >
-        <fa-icon [icon]="faRight" />
+        <fa-icon [icon]="faRight" size="2xl" />
       </button>
     </div>
     }

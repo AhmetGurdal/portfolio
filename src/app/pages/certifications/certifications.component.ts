@@ -60,7 +60,7 @@ export class CertificatesComponent implements OnInit {
   }
 
   async ngOnInit(): Promise<void> {
-    this.certifications = await fetch('/data/certificates.json')
+    this.certifications = await fetch('data/certificates.json')
       .then((e) => e.json())
       .then((e: ICertification[]) => e);
   }

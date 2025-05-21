@@ -289,19 +289,3 @@ main {
     padding: 20px;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .social-links {
-    position: fixed;
-    left: calc(50vw - 40.67px);
-    bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .social-links {
-    position: fixed;
-    left: calc(50vw - 70.67px);
-    bottom: 60px;
-  }
-}

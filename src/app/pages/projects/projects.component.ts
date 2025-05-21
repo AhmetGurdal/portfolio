@@ -51,7 +51,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   async ngOnInit(): Promise<void> {
-    this.projects = await fetch('/data/projects.json')
+    this.projects = await fetch('data/projects.json')
       .then((e) => e.json())
       .then((e: { [key: string]: IProject }) => e);
   }
