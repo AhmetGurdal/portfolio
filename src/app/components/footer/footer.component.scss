@@ -17,3 +17,17 @@ p {
   margin: 0.2rem;
   align-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .full-width {
+    margin-left: 4rem;
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .full-width {
+    margin-left: 0rem;
+    width: 90vw;
+  }
+}

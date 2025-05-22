@@ -11,18 +11,6 @@ main {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
-  main {
-    padding-left: 6rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  main {
-    padding: 0;
-  }
-}
-
 .background {
   margin: 4rem 1rem 3.5rem 1rem;
   padding: 20px;
@@ -75,5 +63,27 @@ img {
   color: white;
   li {
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding: 0;
+  }
+  .background {
+    justify-self: auto;
+    background: rgba(24, 50, 71, 0.6);
+    img {
+      width: 85vw;
+    }
+    ul {
+      padding-left: 10px;
+    }
   }
 }

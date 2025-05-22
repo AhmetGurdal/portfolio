@@ -4,3 +4,9 @@
   gap: 1rem;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .social-links {
+    gap: 1.5rem;
+  }
+}

@@ -52,3 +52,11 @@ a:hover .Linkedin {
     fill: #25f;
   }
 }
+
+@media screen and (max-width: 768px) {
+  a {
+    svg {
+      scale: 1.3;
+    }
+  }
+}

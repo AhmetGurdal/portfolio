@@ -261,6 +261,7 @@ main {
     align-items: baseline;
     padding: 30px 20px 30px 6rem;
     .content {
+      margin-top: 4rem;
       flex-direction: column;
       .left-side {
         .title {
@@ -284,8 +285,10 @@ main {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .main {
+    // background: url(../../../../assets/images/mobile-background.gif);
+    // background-size: 100% 100%;
     padding: 20px;
   }
 }
