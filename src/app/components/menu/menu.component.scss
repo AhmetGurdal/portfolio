@@ -121,6 +121,7 @@ main {
   .sidenav {
     width: 90vw;
     padding: 20px;
+    transition: width 0.5s ease-in-out;
   }
   .sidenav-nav {
     .sidenav-nav-item {
@@ -138,7 +139,7 @@ main {
   }
   .sidenav-collapsed {
     width: 3rem;
-    display: none;
+    left: -50%;
     box-shadow: none;
   }
   .sidenav {

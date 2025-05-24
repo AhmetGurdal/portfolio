@@ -69,21 +69,26 @@ img {
 @media screen and (max-width: 768px) {
   main {
     padding-left: 6rem;
+    .background {
+      justify-self: auto;
+      background: rgba(24, 50, 71, 0.6);
+      img {
+        width: 75vw;
+      }
+      ul {
+        padding-left: 10px;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 600px) {
   main {
     padding: 0;
-  }
-  .background {
-    justify-self: auto;
-    background: rgba(24, 50, 71, 0.6);
-    img {
-      width: 85vw;
-    }
-    ul {
-      padding-left: 10px;
+    .background {
+      img {
+        width: 85vw;
+      }
     }
   }
 }
