@@ -34,7 +34,6 @@
   "rsa_ml_attacks": {
     "name": "RSA ML Attacks",
     "short_description": "Investigating the attacks on the RSA encryption algorithm using maching learning",
-    "long_description_old": "RSA_ML_Attacks is a research-oriented project that explores how machine learning techniques can be used to analyze and potentially attack the RSA encryption algorithm. It focuses on generating synthetic RSA datasets and applying ML models to uncover patterns that may compromise cryptographic security. The project simulates attack scenarios to assess the practical viability of ML-based approaches in cryptanalysis. It aims to bridge the gap between traditional cryptographic methods and modern AI capabilities. The codebase is modular, supporting easy experimentation with different models and parameters. Key components include data generation, feature extraction, model training, and results evaluation. It serves as an educational and research tool for students and professionals interested in cybersecurity, cryptography, and machine learning. The project is implemented in Python and includes Docker support for consistent environments.",
     "long_description": {
       "blocks": [
         { "type": "title-h1", "value": "RSA ML Attacks" },
@@ -189,7 +188,6 @@
   "kibit": {
     "name": "Kibit",
     "short_description": "A version controlled file saving system",
-    "long_description_old": "Kibit is a desktop application developed using the Kivy framework, designed to facilitate the backup of local directories to private Git repositories. The tool provides a user-friendly interface where users can configure their Git repository settings, including repository URL and authentication credentials. Once set up, users can select local directories to back up, and the application will synchronize these directories with the specified Git repository. This ensures that users have a secure and version-controlled backup of their important files. The application is particularly useful for developers and individuals who prefer using Git for backup purposes but seek a straightforward graphical interface to manage the process. The project is open-source and available for contributions.",
     "long_description": {
       "blocks": [
         { "type": "title-h1", "value": "Kibit" },
@@ -453,7 +451,6 @@
         }
       ]
     },
-    "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
     "technologies": ["python"],
     "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
     "project_image": "images/projects/technoter/intro.png",
@@ -462,7 +459,6 @@
   "dr-bst": {
     "name": "DRLearning Basket Shot Trajectory (DR-BST)",
     "short_description": "DRLearning Basket Shot Trajectory (DR-BST) is a deep reinforcement learning-based simulation that trains an agent to optimize basketball shot trajectories through dynamic angle and force adjustments.",
-    "long_description_old": "DRLearning-Basket-Shot-Trajectory is a Python-based simulation that employs deep reinforcement learning (DRL) to model and optimize basketball shot trajectories. The project utilizes the Kivy framework to provide an interactive graphical interface, allowing users to visualize and adjust various parameters influencing the shot. Key components of the simulation include classes for the ball, rim, and power bar, each contributing to the realistic modeling of the shot dynamics. The agent learns to adjust the shot's angle and force to maximize the likelihood of scoring, simulating the decision-making process of a basketball player. The environment is designed to be extensible, enabling the incorporation of additional features such as player movement or defensive interference. The project's structure is modular, with separate files handling different aspects of the simulation, including physics calculations and user interface elements. A Jupyter Notebook is included for testing and experimentation with different configurations. The repository provides a foundational platform for exploring the application of DRL in sports simulations. This project is particularly useful for those interested in the intersection of artificial intelligence and sports analytics. It serves as an educational tool for understanding the principles of reinforcement learning in a practical context.",
     "long_description": {
       "blocks": [
         { "type": "title-h1", "value": "DRLearning-Basket-Shot-Trajectory" },
@@ -624,9 +620,131 @@
         }
       ]
     },
-    "long_description_old": "SLI Checker is a Python-based project developed to detect and prevent spam link injection on websites. It helps protect web content from unauthorized or malicious external links that could compromise user trust or harm SEO performance. The tool works by comparing the links found on a web page against a predefined set of trusted sources. If any unexpected or suspicious links are detected, they are flagged for further review. This makes it easier for site administrators to monitor and maintain the integrity of their websites. The project is especially useful for platforms that allow user-generated content, which are more vulnerable to such attacks. Designed to be simple and lightweight, the tool is accessible to both developers and non-technical users. It promotes proactive website management by identifying subtle security issues that might go unnoticed. The code is open-source and can be adapted to fit various security policies. Overall, SLI-Checker offers an effective solution for maintaining clean and secure web environments.",
     "technologies": ["python"],
     "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
     "project_image": "images/projects/default.jpg"
+  },
+  "farming_efficiency": {
+    "name": "Farming Efficiency (Informative Application)",
+    "short_description": "Farming Efficiency is an application, created to search for best plants for the given soil specs. (such as pH Level, nitrogen, phosphorus etc.)",
+    "long_description": {
+      "blocks": [
+        { "type": "title-h1", "value": "Farming Efficiency" },
+        {
+          "type": "text",
+          "blocks": [
+            { "type": "strong", "value": "Farming Efficiency: " },
+            {
+              "type": "text",
+              "value": "is a React application developed to search best plants for the given soil specs."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "value": "You can use the application with 6 different languages. (German, English, France, Spanish, Italian and Turkish)"
+        },
+        {
+          "type": "text",
+          "value": "Down below, these are the filtering inputs:"
+        },
+        {
+          "type": "list",
+          "blocks": [
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Name Input : " },
+                {
+                  "type": "text",
+                  "value": "Name input is designed to filter the plant names that includes the given string."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "pH Level: " },
+                {
+                  "type": "text",
+                  "value": "The value entered to pH level input will filter plants by their pH level range."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Nitrogen: " },
+                {
+                  "type": "text",
+                  "value": "Filters the best suitable plants for the given nitrogen value of the soil."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Phosphorus: " },
+                {
+                  "type": "text",
+                  "value": "Filters the best suitable plants for the given phosphorus value of the soil."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Potassium: " },
+                {
+                  "type": "text",
+                  "value": "Filters the best suitable plants for the given potassium value of the soil."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "blocks": [
+                { "type": "strong", "value": "Temperature: " },
+                {
+                  "type": "text",
+                  "value": "The value entered to temperature input will filter plants by their temperature range."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "value": "images/projects/farming-efficiency/intro.png"
+        },
+        {
+          "type": "text",
+          "blocks": [
+            {
+              "type": "text",
+              "value": "For more information or to contribute to the project, visit the "
+            },
+            {
+              "type": "link",
+              "value": "Github Repository",
+              "link": "https://github.com/AhmetGurdal/FarmingEfficiency"
+            },
+            {
+              "type": "text",
+              "value": ". Also, check the "
+            },
+            {
+              "type": "link",
+              "value": "project",
+              "link": "https://ahmetgurdal.github.io/FarmingEfficiency/"
+            }
+          ]
+        }
+      ]
+    },
+    "technologies": ["react"],
+    "link": "https://ahmetgurdal.github.io/FarmingEfficiency",
+    "project_link": "https://github.com/AhmetGurdal/SLI-Checker",
+    "project_image": "images/projects/farming-efficiency/intro.png"
   }
 }
